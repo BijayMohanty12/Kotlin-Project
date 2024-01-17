@@ -25,4 +25,17 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/b1747f83-4be9-4
 * Understanding how backend interact with frontend
 * Basic understanding  widgets
 
+ ## 3. Tap or Hold Counter
+ 
+*Date: 2024-01-18*
+
+
+
+**What I learned from this demo:**
+
+* Learned about important of toolbar aka custom actionbar
+* Useage of style to create toolbar in folder of values
+* Understanding about Thread, Runnable, Handler, Looper, Message Queue
+* Use as Text as button
+
 
