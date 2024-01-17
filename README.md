@@ -19,6 +19,8 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/5122b220-8c0e-4
 
 
 
+**What I learned from this demo:**
+
 * Button click handler with lambda in kotlin
 * Understanding how backend interact with frontend
 * Basic understanding  widgets
