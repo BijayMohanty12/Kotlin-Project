@@ -15,7 +15,12 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/5122b220-8c0e-4
 
   ## 2. Counter App
  
-*Date: 2024-01-06*
+*Date: 2024-01-12*
 
+
+
+* Button click handler with lambda in kotlin
+* Understanding how backend interact with frontend
+* Basic understanding  widgets
 
 
