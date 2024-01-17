@@ -13,7 +13,7 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/5122b220-8c0e-4
 * learned about console message display by using Toast.makeText()method
 * Basic usage of Git commands and Github repository
 
-  ## 2. Counter App
+## 2. Counter App
  
 *Date: 2024-01-12*
 
@@ -29,7 +29,7 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/b1747f83-4be9-4
  
 *Date: 2024-01-18*
 
-
+https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/56d720d0-5333-45d8-b4c6-a199081e9180
 
 **What I learned from this demo:**
 
