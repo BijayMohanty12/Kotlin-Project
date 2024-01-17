@@ -11,6 +11,11 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/5122b220-8c0e-4
 
 * Learned about widgets and constraints layout
 * learned about console message display by using Toast.makeText()method
-* Basic usage of Git commands and Github repository 
+* Basic usage of Git commands and Github repository
+
+  ## 2. Counter App
+ 
+*Date: 2024-01-06*
+
 
 
