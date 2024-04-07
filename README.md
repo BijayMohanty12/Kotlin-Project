@@ -37,6 +37,19 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/cad555f6-f13e-4
 * Useage of style to create toolbar in folder of values
 * Understanding about Thread, Runnable, Handler, Looper, Message Queue
 * Use as Text as button  because of setOnTouchListener
+
+  ## 4. Unit Convertor
+ 
+*Date: 2024-2-20*
+
+
+
+**What I learned from this demo:**
+
+* Learned about important of spinner ,listof array using in value folder
+* Used how  2 spinner working together according to head spinner
+* Understanding about Adapater concept, understand full about clickable event and textwatcher
+* take complex reference of Unit Convertor of google website
   
 
 
