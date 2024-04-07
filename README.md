@@ -49,7 +49,7 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/797fac76-7f33-4
 * Learned about important of spinner ,listof array using in value folder
 * Used how  2 spinner working together according to head spinner
 * Understanding about Adapater concept, understand full about clickable event and textwatcher
-* take complex reference of Unit Convertor of google website
+* take complex reference of Unit Convertor  google website
   
 
 
