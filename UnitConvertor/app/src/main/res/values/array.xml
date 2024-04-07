@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="your_array_resource">
+        <item>Area</item>
+        <item>Length</item>
+        <item>Volume</item>
+        <item>Time</item>
+        <!-- Add more items as needed -->
+    </array>
+    <array name ="Area">
+        <item>Square Kilometer</item>
+        <item>Square meter</item>
+        <item>Square mile</item>
+    </array>
+    <array name ="Length">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Millimetre</item>
+    </array>
+    <array name ="Volume">
+        <item>Liter</item>
+       <item>Millimeter</item>
+        <item>Cubic meter</item>
+    </array>
+    <array name="Time">
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+    </array>
+
+</resources>
