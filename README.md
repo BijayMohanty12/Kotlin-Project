@@ -51,5 +51,14 @@ https://github.com/BijayMohanty12/Kotlin-Project/assets/74196659/797fac76-7f33-4
 * Understanding about Adapater concept, understand full about clickable event and textwatcher
 * take complex reference of Unit Convertor  google website
   
+ ## 4. IntentDataPassingDemo
+ 
+*Date: 2024-3-10*
 
+
+
+**What I learned from this demo:**
+
+* Learned about implicit and explict intent
+* learned how to pass the data from one  Activity to another Activity by using Paracable concept
 
