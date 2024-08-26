@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdf00"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/canvas"
+        android:layout_width="374dp"
+        android:layout_height="387dp"
+        android:background="@drawable/shadow_background"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toEndOf="@id/canvas"
+        app:layout_constraintStart_toStartOf="@+id/canvas"
+        app:layout_constraintTop_toTopOf="@+id/canvas">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/spinnerBackground"
+            android:entries="@array/your_array_resource"
+            android:textAlignment="center"
+
+            android:theme="@style/AppTheme" />
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="152dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="68dp"
+        android:autofillHints=""
+        android:textColor="@color/black"
+        android:background="@drawable/brackgroundblock"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/canvas"
+        app:layout_constraintStart_toStartOf="@+id/canvas"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="152dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/brackgroundblock"
+        android:layout_marginTop="68dp"
+        android:autofillHints=""
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/canvas"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="="
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/editText2"
+        app:layout_constraintStart_toEndOf="@+id/editText1"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="158dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center"
+
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/cardView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+
+            style="@style/spinnerBackground"
+            android:theme="@style/AppTheme" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="158dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/canvas"
+        app:layout_constraintTop_toBottomOf="@+id/editText2">
+
+        <Spinner
+
+            android:id="@+id/spinner2"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/spinnerBackground"
+            android:textAlignment="center"
+
+            android:theme="@style/AppTheme"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

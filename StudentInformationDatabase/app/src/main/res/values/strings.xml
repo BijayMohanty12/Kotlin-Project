@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Information_Database</string>
+    <string name="name">Name: </string>
+    <string name="room">Class:</string>
+    <string name="marks">Marks:</string>
+    <string name="ID">Id:</string>
+</resources>

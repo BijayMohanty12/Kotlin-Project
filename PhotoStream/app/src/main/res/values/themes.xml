@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PhotoStream" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+       <item name="colorPrimary">#FAF8F8</item>
+    </style>
+
+    <style name="Theme.PhotoStream" parent="Base.Theme.PhotoStream" />
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">#303F9F</item>
+
+
+    </style>
+
+        <!-- Define a custom text appearance style for bottom navigation items -->
+        <style name="BottomNavigationTextAppearance" parent="TextAppearance.AppCompat">
+            <item name="android:textSize">16sp</item>
+
+            <!-- Optional: Set text color -->
+        </style>
+
+
+
+        <!-- Define a custom style for bottom navigation items -->
+        <style name="BottomNavigationItemStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+            <item name="android:textAppearance">@style/BottomNavigationTextAppearance</item>
+        </style>
+
+    <style name="BottomSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+
+
+</resources>

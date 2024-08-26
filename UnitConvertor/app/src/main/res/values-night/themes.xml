@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UnitConvertor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">#050505</item>
+    </style>
+
+    <style name="spinnerBackground">
+        <item name="android:background">#FFFFFF</item>
+
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/nav_picture"
+    android:title="Pictures"
+    android:icon="@drawable/photo"/>
+
+    <item android:id="@+id/nav_albums"
+        android:icon="@drawable/photo_albums"
+        android:title="Albums" />
+
+
+
+    <item android:id="@+id/nav_more"
+          android:icon="@drawable/list_option"
+        android:title="More"/>
+
+
+</menu>

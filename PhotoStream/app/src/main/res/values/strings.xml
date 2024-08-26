@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PhotoStream</string>
+    <string name="Splashscreen">splashScreen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">FAB</string>
+    <string name="Date">Today</string>
+    <string name="Gallery">Imageview</string>
+    <string name="date">Date</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Imageview">imageview</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieList</string>
+    <string name="image">Image</string>
+    <string name="Movie_Title">Title</string>
+    <string name="Movie_Rating">0.3</string>
+    <string name="Overview">overview</string>
+</resources>
