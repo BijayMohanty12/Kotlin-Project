@@ -25,8 +25,7 @@ class DatabaseHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME,
                 + COL_3 + " TEXT,"
                 + COL_4 + " INTEGER" + ")")
         db.execSQL(createTable)
-         val database=this.writableDatabase
-        database.close()
+
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
